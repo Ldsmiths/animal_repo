@@ -21,3 +21,16 @@
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+@media only screen and (max-width: 600px) {
+    #right {
+    color: yellow;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
